@@ -45,15 +45,17 @@ Before running the project, install the following tools:
 git clone https://github.com/hagargamaz-del/ai-nutrition-data-pipeline.git
 cd ai-nutrition-data-pipeline
 
-
+````
 
 ## Demo Screenshots
 
 ### WhatsApp Chatbot Demo
 
 The user sends a meal image through WhatsApp, receives an AI-generated nutrition estimate, and confirms whether the meal should be logged.
+<img width="1394" height="855" alt="chatbot analysis" src="https://github.com/user-attachments/assets/454ef2bf-fa6e-4a25-87a3-f56a19f18535" />
+<img width="1420" height="437" alt="confirmed_request" src="https://github.com/user-attachments/assets/8626d90c-1a9b-448d-baee-a31a2ad2f39a" />
+<img width="1388" height="722" alt="cancelled_request" src="https://github.com/user-attachments/assets/85f65fc0-1d10-4852-b627-730072d61d32" />
 
-![WhatsApp Chatbot Demo](docs/images/whatsapp_chatbot_demo.png)
 
 ---
 
@@ -61,7 +63,7 @@ The user sends a meal image through WhatsApp, receives an AI-generated nutrition
 
 Shows total calories, protein, carbs, fat, meals logged, and daily nutrition trends.
 
-![Nutrition Overview Dashboard](docs/images/nutrition_overview_dashboard.png)
+<img width="1156" height="746" alt="Nutrition Overview dashboard" src="https://github.com/user-attachments/assets/d389b7b8-2d3f-4b20-9fd6-91edfe25edd5" />
 
 ---
 
@@ -69,7 +71,7 @@ Shows total calories, protein, carbs, fat, meals logged, and daily nutrition tre
 
 Compares actual calorie and macronutrient intake against user targets.
 
-![Target vs Actual Dashboard](docs/images/target_vs_actual_dashboard.png)
+<img width="1158" height="668" alt="Target vs Actual Plan dashboard" src="https://github.com/user-attachments/assets/ee1b39c8-d1db-44d0-ab5e-71cc348da4fe" />
 
 ---
 
@@ -77,7 +79,7 @@ Compares actual calorie and macronutrient intake against user targets.
 
 Shows most consumed foods, highest-calorie foods, and meal item details.
 
-![Food Analysis Dashboard](docs/images/food_analysis_dashboard.png)
+<img width="1163" height="710" alt="Food Analysis dashboard" src="https://github.com/user-attachments/assets/eed8ed7e-30e0-4e2c-a51a-2c63cd5e17b1" />
 
 ---
 
@@ -85,7 +87,7 @@ Shows most consumed foods, highest-calorie foods, and meal item details.
 
 Tracks AI prediction status, average confidence, failed/rejected records, and ETL pipeline performance.
 
-![AI Pipeline Monitoring Dashboard](docs/images/pipeline_monitoring_dashboard.png)
+<img width="1170" height="673" alt="AI Pipeline Monitoring dashboard" src="https://github.com/user-attachments/assets/dbc84783-2375-40a8-9b51-aae4547e57a1" />
 
 ---
 
@@ -148,4 +150,4 @@ SQL Server Production Tables
 SQL Server Mart Views
     ↓
 Power BI Dashboard
-````
+
