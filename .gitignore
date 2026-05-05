@@ -1,0 +1,36 @@
+# Environment variables and secrets
+.env
+
+# Python virtual environments
+venv/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Logs
+logs/
+*.log
+
+# Runtime uploaded images
+data/images/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# SQL Server database files
+*.mdf
+*.ldf
+*.bak
+
+# Power BI temporary files
+*.tmp
+
+# IDE files
+.vscode/
+.idea/

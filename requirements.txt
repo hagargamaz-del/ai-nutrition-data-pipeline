@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+pyodbc
+python-dotenv
+python-multipart
+openai
+google-genai
+pillow
+twilio
+requests
